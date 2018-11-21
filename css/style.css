@@ -1,0 +1,102 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*Добавление пользователя*/
+.new_user {
+	width: fit-content;
+	height: fit-content;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.new_user label {
+	float: left;
+}
+
+.new_user input[type="text"] {
+	float: right;
+}
+
+.title_rename {
+	margin-right: auto;
+	margin-left: auto;
+	width: fit-content;
+	height: fit-content;
+}
+
+/*Вывод пользователей*/
+
+.user {
+	border: solid;
+	float: left;
+	margin: 10px;
+	padding: 25px;
+}
+
+.user_info {
+	float: right;
+	font-weight: bold;
+}
+
+.rename_user input[value="Удалить"] {
+	float: left;
+}
+
+.rename_user input[value="Изменить"] {
+	float: right;
+}
+
+/*Форма редактирования пользователя*/
+
+.mod_user {
+	position: absolute;
+	margin-left: 32%;
+	color: white;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.1999s linear;
+}	
+
+.mod_user_back {
+	background: black;
+	width: 100vw;
+  	height: 100vh;
+  	position: absolute;
+  	opacity: 0;
+  	visibility: hidden;
+  	transition: visibility 0s, opacity 0.1999s linear;
+}
+
+.mod_user_form {
+	border: solid;
+	float: left;
+	padding: 25px;
+	z-index: 45;
+}
+
+.mod_user_form input[type="text"] {
+	float: right;
+}
+
+.mod_user_form select {
+	float: right;
+}
+
+.btn_rename {
+	float: left;
+	width: auto;
+}
+
+.btn_cansel {
+	float: right;
+	width: auto;
+}
+
+.mod_user_form label {
+    display: block;
+    float: left;
+}
+
+/*Пользовательская страница*/
